@@ -29,7 +29,8 @@ urlpatterns = [
          LoginView.as_view(template_name='users/password_change_form.html'),
          name='pcf'),
 
-    path('password_reset_done/', LoginView.as_view(template_name='users/password_reset_done.html'),
+    path('password_reset_done/', 
+         LoginView.as_view(template_name='users/password_reset_done.html'),
          name='prd')
 
 ]
