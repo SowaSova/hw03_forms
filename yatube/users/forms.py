@@ -7,8 +7,6 @@ from .models import Contact
 User = get_user_model()
 
 
-#  создадим собственный класс для формы регистрации
-#  сделаем его наследником предустановленного класса UserCreationForm
 class CreationForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = User

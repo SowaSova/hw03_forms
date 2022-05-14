@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+POSTS_ON_PAGE = 10
 
 # Application definition
 

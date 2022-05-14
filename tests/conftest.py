@@ -1,6 +1,8 @@
-from yatube.settings import INSTALLED_APPS
-from django.utils.version import get_version
 import os
+
+from django.utils.version import get_version
+
+from yatube.settings import INSTALLED_APPS
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 root_dir_content = os.listdir(BASE_DIR)
